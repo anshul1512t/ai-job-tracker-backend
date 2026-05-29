@@ -1,0 +1,49 @@
+# Maven
+target/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Uploads
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Spring
+HELP.md
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
