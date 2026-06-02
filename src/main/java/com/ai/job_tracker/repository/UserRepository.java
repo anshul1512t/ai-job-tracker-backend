@@ -8,4 +8,6 @@ import com.ai.job_tracker.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
     User findByEmail(String email);
+
+    Object existsByEmail(String string);
 }

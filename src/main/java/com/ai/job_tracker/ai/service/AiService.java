@@ -41,7 +41,6 @@ public class AiService {
         private final CoverLetterRepository coverLetterRepository;
         private final SkillGapAnalysisRepository skillGapAnalysisRepository;
         private final ChatClient chatClient;
-        private final ObjectMapper objectMapper;
 
         public AiService(ChatClient.Builder chatClientBuilder, ResumeAnalysisRepository resumeAnalysisRepository,
                         ResumeRepository resumeRepository, JobApplicationRepository jobApplicationRepository,
@@ -54,7 +53,6 @@ public class AiService {
                 this.jobApplicationRepository = jobApplicationRepository;
                 this.coverLetterRepository = coverLetterRepository;
                 this.skillGapAnalysisRepository = skillGapAnalysisRepository;
-                this.objectMapper = objectMapper;
         }
 
         public String testingAi() {

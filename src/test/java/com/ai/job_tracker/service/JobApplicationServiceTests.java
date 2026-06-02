@@ -10,6 +10,8 @@ import com.ai.job_tracker.model.JobApplication;
 import com.ai.job_tracker.model.User;
 import com.ai.job_tracker.repository.JobApplicationRepository;
 import com.ai.job_tracker.utils.HelperFX;
+
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
